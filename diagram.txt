@@ -1,0 +1,16 @@
+#diagram
++--------------------+
+|   BankAccount      |
++--------------------+
+| - __name: str      |
+| - __balance: float |
++--------------------+
+| + __init__(name: str, balance: float)    |
+| + set_name(name: str): void              |
+| + set_balance(balance: float): void      |
+| + get_name(): str                        |
+| + get_balance(): float                   |
+| + deposit(amount: float): void           |
+| + withdraw(amount: float): void          |
+| + get_balance(): float                   |
++--------------------+
